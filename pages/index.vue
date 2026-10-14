@@ -18,5 +18,9 @@ const products = [
     <NuxtLink to="/account/orders" :prefetch="false">
       进入订单工作台
     </NuxtLink>
+    <br />
+    <NuxtLink to="/practice/products" :prefetch="false">
+      进入商品列表练习
+    </NuxtLink>
   </main>
 </template>
