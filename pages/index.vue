@@ -22,5 +22,9 @@ const products = [
     <NuxtLink to="/practice/products" :prefetch="false">
       进入商品列表练习
     </NuxtLink>
+    <br />
+    <NuxtLink to="/practice/store-summary" :prefetch="false">
+      进入店铺统计练习
+    </NuxtLink>
   </main>
 </template>
