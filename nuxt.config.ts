@@ -2,8 +2,11 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  ssr: true,
+
   // routeRules: {
   //   '/account/orders': { ssr: false },
   // },
+  ssr: true,
+
+  modules: ['@pinia/nuxt'],
 })
